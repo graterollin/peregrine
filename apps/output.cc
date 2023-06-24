@@ -3,7 +3,7 @@
 #include <filesystem>
 #include <unistd.h>
 
-#include "Peregrine.hh"
+#include "../core/Peregrine.hh"
 
 
 int main(int argc, char *argv[])
