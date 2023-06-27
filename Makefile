@@ -6,7 +6,7 @@ OBJ=core/DataGraph.o core/PO.o core/utils.o core/PatternGenerator.o $(ROOT_DIR)/
 OUTDIR=bin/
 CC=g++
 
-all: bliss fsm count test existence-query convert_data
+all: bliss fsm count test existence-query convert_data output
 
 core/roaring.o: core/roaring/roaring.c
 	gcc -c core/roaring/roaring.c -o $@ -O3 -Wall -Wextra -Wpedantic -fPIC 
